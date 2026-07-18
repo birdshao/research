@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "full_name": "sample/rapid-agent",
+      "html_url": "https://github.com/sample/rapid-agent",
+      "description": "A fast-moving open source AI agent framework",
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "stargazers_count": 1250,
+      "forks_count": 140,
+      "open_issues_count": 18,
+      "topics": ["ai-agent", "llm-agent"],
+      "created_at": "2026-03-01T00:00:00Z",
+      "updated_at": "2026-07-18T12:00:00Z",
+      "pushed_at": "2026-07-18T12:00:00Z",
+      "language": "Python",
+      "license": {"spdx_id": "MIT"},
+      "default_branch": "main",
+      "size": 4200
+    },
+    {
+      "full_name": "sample/established-agents",
+      "html_url": "https://github.com/sample/established-agents",
+      "description": "Production multi-agent orchestration toolkit",
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "stargazers_count": 24500,
+      "forks_count": 3100,
+      "open_issues_count": 250,
+      "topics": ["multi-agent-systems", "agentic-ai"],
+      "created_at": "2023-05-01T00:00:00Z",
+      "updated_at": "2026-07-17T20:00:00Z",
+      "pushed_at": "2026-07-17T20:00:00Z",
+      "language": "TypeScript",
+      "license": {"spdx_id": "Apache-2.0"},
+      "default_branch": "main",
+      "size": 19000
+    },
+    {
+      "full_name": "sample/tiny-new-agent",
+      "html_url": "https://github.com/sample/tiny-new-agent",
+      "description": "Experimental autonomous AI agent",
+      "fork": false,
+      "archived": false,
+      "disabled": false,
+      "stargazers_count": 40,
+      "forks_count": 4,
+      "open_issues_count": 3,
+      "topics": ["autonomous-agents"],
+      "created_at": "2026-07-01T00:00:00Z",
+      "updated_at": "2026-07-18T08:00:00Z",
+      "pushed_at": "2026-07-18T08:00:00Z",
+      "language": "Rust",
+      "license": {"spdx_id": "MIT"},
+      "default_branch": "main",
+      "size": 800
+    }
+  ]
+}
