@@ -5,6 +5,13 @@ on:
     - cron: "15 9 * * *"
       timezone: "America/Chicago"
   workflow_dispatch:
+  push:
+    branches: ["master"]
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - "config.json"
+      - ".github/workflows/ai-agent-radar.yml"
 
 permissions:
   contents: write
