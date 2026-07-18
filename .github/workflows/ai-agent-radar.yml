@@ -1,0 +1,67 @@
+name: AI Agent GitHub Radar
+
+on:
+  schedule:
+    - cron: "15 9 * * *"
+      timezone: "America/Chicago"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-agent-github-radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    name: Collect and rank AI-agent repositories
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Generate daily radar
+        env:
+          GH_TOKEN: ${{ secrets.AI_AGENT_RADAR_TOKEN || github.token }}
+          RADAR_CONFIG: config.json
+        run: python scripts/ai_agent_radar.py --config "$RADAR_CONFIG"
+
+      - name: Publish report to workflow summary
+        run: cat reports/latest.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: ai-agent-radar-${{ github.run_id }}
+          path: |
+            reports/latest.md
+            data/latest.csv
+          retention-days: 14
+          if-no-files-found: error
+
+      - name: Commit generated report and snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A reports data
+          if git diff --cached --quiet; then
+            echo "No report changes to commit."
+            exit 0
+          fi
+          report_date="$(date +%F)"
+          git commit -m "chore(radar): update AI agent report ${report_date}"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
