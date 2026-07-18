@@ -1,0 +1,35 @@
+{
+  "timezone": "America/Chicago",
+  "api_version": "2026-03-10",
+  "minimum_stars": 10,
+  "emerging_minimum_stars": 5,
+  "emerging_max_age_days": 180,
+  "results_per_query": 50,
+  "report_top_n": 20,
+  "snapshot_retention_days": 60,
+  "search_delay_seconds": 0.4,
+  "request_timeout_seconds": 30,
+  "max_retries": 3,
+  "search_sorts": [
+    "stars",
+    "updated"
+  ],
+  "queries": [
+    "topic:ai-agent archived:false stars:>=5",
+    "topic:ai-agents archived:false stars:>=5",
+    "topic:agentic-ai archived:false stars:>=5",
+    "topic:llm-agent archived:false stars:>=5",
+    "topic:llm-agents archived:false stars:>=5",
+    "topic:autonomous-agents archived:false stars:>=5",
+    "topic:multi-agent-systems archived:false stars:>=5",
+    "\"ai agent\" in:name,description,topics,readme archived:false stars:>=5",
+    "\"agentic ai\" in:name,description,topics,readme archived:false stars:>=5",
+    "\"llm agent\" in:name,description,topics,readme archived:false stars:>=5"
+  ],
+  "output": {
+    "snapshot_dir": "data/snapshots",
+    "latest_csv": "data/latest.csv",
+    "report_dir": "reports",
+    "latest_report": "reports/latest.md"
+  }
+}
