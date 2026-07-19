@@ -51,6 +51,19 @@ jobs:
             --csv data/latest.csv \
             --top-n 12
 
+      - name: Add community evaluation and usage recommendations
+        env:
+          # Without this optional PAT, the script uses at most 36 anonymous
+          # public API requests for 12 projects.
+          COMMUNITY_GH_TOKEN: ${{ secrets.AI_AGENT_RADAR_TOKEN }}
+          GITHUB_API_VERSION: "2026-03-10"
+        run: |
+          python scripts/community_review.py \
+            --report reports/latest.md \
+            --csv data/latest.csv \
+            --output-json data/community/latest.json \
+            --top-n 12
+
       - name: Publish report to workflow summary
         run: cat reports/latest.md >> "$GITHUB_STEP_SUMMARY"
 
@@ -61,6 +74,7 @@ jobs:
           path: |
             reports/latest.md
             data/latest.csv
+            data/community/latest.json
           retention-days: 14
           if-no-files-found: error
 
