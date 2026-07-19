@@ -44,6 +44,13 @@ jobs:
           RADAR_CONFIG: config.json
         run: python scripts/ai_agent_radar.py --config "$RADAR_CONFIG"
 
+      - name: Add project content introductions
+        run: |
+          python scripts/enrich_report.py \
+            --report reports/latest.md \
+            --csv data/latest.csv \
+            --top-n 12
+
       - name: Publish report to workflow summary
         run: cat reports/latest.md >> "$GITHUB_STEP_SUMMARY"
 
