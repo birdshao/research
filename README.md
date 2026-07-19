@@ -1,6 +1,6 @@
 # AI Agent GitHub Radar
 
-每天自动扫描 GitHub 上与 **AI Agent / Agentic AI / LLM Agent / Multi-Agent** 相关的开源项目，保存历史快照，并生成三类榜单与两类解读：
+每天自动扫描 GitHub 上与 **AI Agent / Agentic AI / LLM Agent / Multi-Agent** 相关的开源项目，保存历史快照，并把以下内容合并为一份完整的每日日报：
 
 - **增长最快**：关注最近 1–3 天和约 7 天的 Star 增速。
 - **当前最热**：综合累计 Stars、Forks、增长速度和代码活跃度。
@@ -8,20 +8,36 @@
 - **重点项目介绍**：说明项目方向、功能、技术信息和入选理由。
 - **社区评价与使用建议**：基于维护活跃度、社区健康、Issue、贡献者、许可证等信号，明确给出“值得使用 / 值得试用 / 谨慎试用 / 暂不建议直接用于关键生产”。
 
-最新日报见 [`reports/latest.md`](reports/latest.md)，完整表格数据见 [`data/latest.csv`](data/latest.csv)，机器可读的社区评价见 [`data/community/latest.json`](data/community/latest.json)。
+最新完整日报见 [`reports/latest.md`](reports/latest.md)，完整表格数据见 [`data/latest.csv`](data/latest.csv)，机器可读的社区评价见 [`data/community/latest.json`](data/community/latest.json)。
 
 ## 运行时间
 
-GitHub Actions 默认在每天 **09:15（America/Chicago）** 执行，并自动适配夏令时。也可以在仓库的 **Actions → AI Agent GitHub Radar → Run workflow** 中手动执行。
+GitHub Actions 每天早上 **08:00（America/Chicago）** 主触发，并自动适配夏令时。为降低 GitHub Actions 整点高负载导致计划延迟或丢失的影响，工作流在 **08:20** 设有一次自动补偿触发：若 08:00 已成功完成，补偿任务会通过当天完成标记立即跳过；若主触发未运行或执行失败，08:20 会重新生成完整日报。
+
+也可以在仓库的 **Actions → AI Agent GitHub Radar → Run workflow** 中手动生成。对脚本、测试、配置或工作流的普通代码提交只执行单元测试，不会提前覆盖当日日报。
 
 调度配置位于 [`.github/workflows/ai-agent-radar.yml`](.github/workflows/ai-agent-radar.yml)：
 
 ```yaml
 on:
   schedule:
-    - cron: "15 9 * * *"
+    - cron: "0 8 * * *"
+      timezone: "America/Chicago"
+    - cron: "20 8 * * *"
       timezone: "America/Chicago"
 ```
+
+## 每日日报生成流程
+
+每次正式日报运行会依次完成：
+
+1. 搜索并去重 AI Agent 相关 GitHub 项目，计算增长、热度与新兴评分。
+2. 生成三类榜单和今日概览。
+3. 为重点项目补充方向、功能简介、技术栈与入选理由。
+4. 采集 GitHub 社区健康、近期 Issue、贡献者、许可证和维护活跃度。
+5. 给出社区分、风险提示以及“值不值得使用”的明确结论。
+6. 将所有内容合并进同一份 `reports/YYYY-MM-DD.md` 和 `reports/latest.md`。
+7. 上传完整 Artifact，并把日报与历史快照提交回仓库。
 
 ## 输出内容
 
@@ -29,14 +45,15 @@ on:
 
 | 路径 | 内容 |
 |---|---|
-| `reports/YYYY-MM-DD.md` | 当日完整 Markdown 日报 |
-| `reports/latest.md` | 最新日报的固定入口 |
+| `reports/YYYY-MM-DD.md` | 当日完整 Markdown 日报，包含榜单、项目介绍、社区评价和使用建议 |
+| `reports/latest.md` | 最新完整日报的固定入口 |
 | `data/latest.csv` | 当前所有入选项目及计算指标 |
 | `data/snapshots/YYYY-MM-DD.json.gz` | 用于计算增长的每日压缩快照 |
 | `data/community/YYYY-MM-DD.json` | 当日重点项目社区信号、评分、风险和使用建议 |
 | `data/community/latest.json` | 最新社区评价的固定机器可读入口 |
+| `data/run-state/YYYY-MM-DD.done` | 成功完成定时报表的内部标记，用于阻止 08:20 补偿任务重复生成 |
 
-工作流还会把日报写入 GitHub Actions 的 Job Summary，并上传一份保留 14 天的运行产物。
+工作流还会把完整日报写入 GitHub Actions 的 Job Summary，并上传一份保留 14 天的运行产物。
 
 ## 统计口径
 
@@ -118,7 +135,7 @@ python scripts/ai_agent_radar.py \
 
 ## Token 与权限
 
-工作流默认使用 GitHub 自动提供的 `github.token` 运行仓库搜索和提交日报，并只授予当前仓库 `contents: write` 权限。
+工作流默认只授予 `contents: read`。只有正式的 `daily-report` 作业临时使用当前仓库的 `contents: write` 权限，以便提交日报、快照、社区评价和当天完成标记；普通代码提交触发的验证作业只有读取权限。
 
 `github.token` 的权限只限当前仓库，因此跨仓库社区评价默认使用受控数量的匿名公开 API 请求：每个重点项目读取社区健康、最近活跃 Issue 和贡献者，12 个项目最多 36 次请求。
 
