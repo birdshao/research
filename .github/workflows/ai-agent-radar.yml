@@ -2,7 +2,13 @@ name: AI Agent GitHub Radar
 
 on:
   schedule:
-    - cron: "15 9 * * *"
+    # Primary daily run at 08:00 in Chicago. The timezone setting follows DST.
+    - cron: "0 8 * * *"
+      timezone: "America/Chicago"
+    # GitHub notes that top-of-hour schedules can be delayed or dropped under
+    # heavy load. This second schedule retries at 08:20 and exits immediately
+    # when the 08:00 run has already committed today's completion marker.
+    - cron: "20 8 * * *"
       timezone: "America/Chicago"
   workflow_dispatch:
   push:
@@ -14,17 +20,14 @@ on:
       - ".github/workflows/ai-agent-radar.yml"
 
 permissions:
-  contents: write
-
-concurrency:
-  group: ai-agent-github-radar
-  cancel-in-progress: false
+  contents: read
 
 jobs:
-  radar:
-    name: Collect and rank AI-agent repositories
+  validate:
+    name: Validate radar changes
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 10
 
     steps:
       - name: Check out repository
@@ -38,48 +41,117 @@ jobs:
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
 
-      - name: Generate daily radar
+  daily-report:
+    name: Build complete AI-agent daily report
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    concurrency:
+      group: ai-agent-github-radar-daily
+      cancel-in-progress: false
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Determine report date and guard the fallback run
+        id: daily
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          report_date="$(TZ=America/Chicago date +%F)"
+          marker="data/run-state/${report_date}.done"
+          echo "date=${report_date}" >> "$GITHUB_OUTPUT"
+          echo "marker=${marker}" >> "$GITHUB_OUTPUT"
+
+          if [[ "$EVENT_NAME" == "schedule" && -f "$marker" ]]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Daily report ${report_date} was already completed; skipping fallback run."
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "Daily report ${report_date} will be generated."
+          fi
+
+      - name: Set up Python
+        if: steps.daily.outputs.run == 'true'
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Run unit tests
+        if: steps.daily.outputs.run == 'true'
+        run: python -m unittest discover -s tests -v
+
+      - name: Build the complete daily report
+        if: steps.daily.outputs.run == 'true'
         env:
           GH_TOKEN: ${{ secrets.AI_AGENT_RADAR_TOKEN || github.token }}
+          COMMUNITY_GH_TOKEN: ${{ secrets.AI_AGENT_RADAR_TOKEN }}
           RADAR_CONFIG: config.json
-        run: python scripts/ai_agent_radar.py --config "$RADAR_CONFIG"
-
-      - name: Add project content introductions
+          GITHUB_API_VERSION: "2026-03-10"
         run: |
+          set -euo pipefail
+          python scripts/ai_agent_radar.py --config "$RADAR_CONFIG"
           python scripts/enrich_report.py \
             --report reports/latest.md \
             --csv data/latest.csv \
             --top-n 12
-
-      - name: Add community evaluation and usage recommendations
-        env:
-          # Without this optional PAT, the script uses at most 36 anonymous
-          # public API requests for 12 projects.
-          COMMUNITY_GH_TOKEN: ${{ secrets.AI_AGENT_RADAR_TOKEN }}
-          GITHUB_API_VERSION: "2026-03-10"
-        run: |
           python scripts/community_review.py \
             --report reports/latest.md \
             --csv data/latest.csv \
             --output-json data/community/latest.json \
             --top-n 12
 
+      - name: Mark the scheduled report as complete
+        if: steps.daily.outputs.run == 'true' && github.event_name == 'schedule'
+        shell: bash
+        env:
+          REPORT_DATE: ${{ steps.daily.outputs.date }}
+          MARKER: ${{ steps.daily.outputs.marker }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$(dirname "$MARKER")"
+          {
+            echo "date=${REPORT_DATE}"
+            echo "timezone=America/Chicago"
+            echo "trigger=schedule"
+            echo "run_id=${GITHUB_RUN_ID}"
+            echo "completed_at=$(TZ=America/Chicago date --iso-8601=seconds)"
+          } > "$MARKER"
+
       - name: Publish report to workflow summary
+        if: steps.daily.outputs.run == 'true'
         run: cat reports/latest.md >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Upload report artifact
+      - name: Explain skipped fallback run
+        if: steps.daily.outputs.run != 'true'
+        run: |
+          echo "## AI Agent GitHub Radar" >> "$GITHUB_STEP_SUMMARY"
+          echo "Today's scheduled report was already completed by the primary run, so this fallback run was skipped." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload complete daily report artifact
+        if: steps.daily.outputs.run == 'true'
         uses: actions/upload-artifact@v7
         with:
-          name: ai-agent-radar-${{ github.run_id }}
+          name: ai-agent-radar-${{ steps.daily.outputs.date }}-${{ github.run_id }}
           path: |
             reports/latest.md
+            reports/${{ steps.daily.outputs.date }}.md
             data/latest.csv
             data/community/latest.json
+            data/community/${{ steps.daily.outputs.date }}.json
           retention-days: 14
           if-no-files-found: error
 
-      - name: Commit generated report and snapshot
+      - name: Commit the generated daily report
+        if: steps.daily.outputs.run == 'true'
         shell: bash
+        env:
+          REPORT_DATE: ${{ steps.daily.outputs.date }}
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -89,7 +161,6 @@ jobs:
             echo "No report changes to commit."
             exit 0
           fi
-          report_date="$(date +%F)"
-          git commit -m "chore(radar): update AI agent report ${report_date}"
+          git commit -m "chore(radar): publish complete daily report ${REPORT_DATE}"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
