@@ -1,16 +1,16 @@
-# AI Agent GitHub 雷达 — 2026-11-12
+# AI Agent GitHub 雷达 — 2026-11-13
 
-> 统计时间：2026-11-12 15:19:10 CST  ·  时区：`America/Chicago`  ·  候选项目：**565**  ·  成功查询：**20/20**
+> 统计时间：2026-11-13 14:46:29 CST  ·  时区：`America/Chicago`  ·  候选项目：**574**  ·  成功查询：**20/20**
 
 ## 今日概览
 
 | 指标 | 数值 |
 |---|---:|
-| 纳入跟踪的项目 | 565 |
-| 与最近快照可比 | 406 |
-| 与约 7 日前快照可比 | 376 |
-| 最近 30 天有推送 | 490 |
-| 今日首次进入雷达 | 159 |
+| 纳入跟踪的项目 | 574 |
+| 与最近快照可比 | 401 |
+| 与约 7 日前快照可比 | 395 |
+| 最近 30 天有推送 | 500 |
+| 今日首次进入雷达 | 173 |
 
 ## 增长最快
 
@@ -18,26 +18,26 @@
 
 | # | 项目 | Stars | 近期日增 | 7日增量* | 7日增幅* | 最近推送 | Growth |
 |---:|---|---:|---:|---:|---:|---:|---:|
-| 1 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 71,278 | +1,319.0 | +9,041 | +14.5% | <1天 | 99.0 |
-| 2 | [stablyai/orca](https://github.com/stablyai/orca) | 123,380 | +1,089.0 | +6,805 | +5.8% | <1天 | 98.0 |
-| 3 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 71,067 | +963.0 | +3,457 | +5.1% | <1天 | 96.3 |
-| 4 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 83,370 | +550.0 | +3,892 | +4.9% | <1天 | 95.9 |
-| 5 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 114,213 | +715.0 | +3,631 | +3.3% | 3天 | 94.6 |
-| 6 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 146,684 | +580.0 | +3,778 | +2.6% | <1天 | 94.6 |
-| 7 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | 58,627 | +336.0 | +3,219 | +5.8% | 4天 | 94.4 |
-| 8 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 279,742 | +799.0 | +6,024 | +2.2% | <1天 | 94.4 |
-| 9 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 116,530 | +338.0 | +3,044 | +2.7% | <1天 | 93.5 |
-| 10 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 76,278 | +327.0 | +2,360 | +3.2% | <1天 | 93.2 |
-| 11 | [herdrdev/herdr](https://github.com/herdrdev/herdr) | 50,583 | +293.0 | +2,295 | +4.8% | 4天 | 93.1 |
-| 12 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 189,725 | +651.0 | +4,557 | +2.5% | 14天 | 93.0 |
-| 13 | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | 86,858 | +293.0 | +2,037 | +2.4% | <1天 | 91.7 |
-| 14 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 301,943 | +643.0 | +4,148 | +1.4% | 3天 | 91.5 |
-| 15 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 95,892 | +278.0 | +2,068 | +2.2% | <1天 | 91.3 |
-| 16 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 29,541 | +180.0 | +1,383 | +4.9% | <1天 | 91.3 |
-| 17 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 25,670 | +232.0 | +1,163 | +4.7% | <1天 | 90.8 |
-| 18 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 82,194 | +223.0 | +1,761 | +2.2% | <1天 | 90.2 |
-| 19 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | 60,688 | +198.0 | +1,581 | +2.7% | <1天 | 89.9 |
-| 20 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 201,258 | +341.0 | +2,318 | +1.2% | <1天 | 89.5 |
+| 1 | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 21,763 | +1,081.0 | +8,882 | +69.0% | <1天 | 99.5 |
+| 2 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 72,730 | +1,452.0 | +8,861 | +13.9% | <1天 | 98.8 |
+| 3 | [stablyai/orca](https://github.com/stablyai/orca) | 124,329 | +949.0 | +6,621 | +5.6% | <1天 | 97.5 |
+| 4 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 71,507 | +440.0 | +3,861 | +5.7% | <1天 | 95.7 |
+| 5 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 83,879 | +509.0 | +3,845 | +4.8% | <1天 | 95.4 |
+| 6 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 114,963 | +750.0 | +3,790 | +3.4% | 4天 | 94.3 |
+| 7 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 147,224 | +540.0 | +3,751 | +2.6% | <1天 | 94.0 |
+| 8 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 280,461 | +719.0 | +5,632 | +2.0% | <1天 | 93.8 |
+| 9 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | 58,922 | +295.0 | +3,042 | +5.4% | 5天 | 93.6 |
+| 10 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 76,584 | +306.0 | +2,329 | +3.1% | <1天 | 92.7 |
+| 11 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 190,309 | +584.0 | +4,531 | +2.4% | 14天 | 92.4 |
+| 12 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 116,812 | +282.0 | +2,870 | +2.5% | <1天 | 92.1 |
+| 13 | [herdrdev/herdr](https://github.com/herdrdev/herdr) | 50,830 | +247.0 | +2,246 | +4.6% | 5天 | 91.9 |
+| 14 | [nightly-labs/openbot](https://github.com/nightly-labs/openbot) | 7,489 | +207.0 | +1,471 | +24.4% | <1天 | 91.9 |
+| 15 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 96,197 | +305.0 | +2,025 | +2.2% | <1天 | 91.5 |
+| 16 | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | 87,135 | +277.0 | +1,987 | +2.3% | <1天 | 90.8 |
+| 17 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 302,400 | +457.0 | +3,920 | +1.3% | 4天 | 90.5 |
+| 18 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 29,680 | +139.0 | +1,377 | +4.9% | <1天 | 90.4 |
+| 19 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 25,872 | +202.0 | +1,218 | +4.9% | <1天 | 90.0 |
+| 20 | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | 30,114 | +370.0 | +1,063 | +3.7% | <1天 | 89.6 |
 
 ## 当前最热
 
@@ -45,26 +45,26 @@
 
 | # | 项目 | Stars | Forks | 近期日增 | 7日增量* | 活跃度 | Hot |
 |---:|---|---:|---:|---:|---:|---:|---:|
-| 1 | [stablyai/orca](https://github.com/stablyai/orca) | 123,380 | 7,801 | +1,089.0 | +6,805 | <1天 | 97.2 |
-| 2 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 71,067 | 57,124 | +963.0 | +3,457 | <1天 | 95.8 |
-| 3 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 279,742 | 34,450 | +799.0 | +6,024 | <1天 | 95.6 |
-| 4 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 146,684 | 14,069 | +580.0 | +3,778 | <1天 | 95.4 |
-| 5 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 83,370 | 7,700 | +550.0 | +3,892 | <1天 | 95.2 |
-| 6 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 71,278 | 1,939 | +1,319.0 | +9,041 | <1天 | 95.1 |
-| 7 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 114,213 | 7,686 | +715.0 | +3,631 | 3天 | 94.4 |
-| 8 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 116,530 | 10,109 | +338.0 | +3,044 | <1天 | 94.2 |
-| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 189,725 | 10,574 | +651.0 | +4,557 | 14天 | 93.7 |
-| 10 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 301,943 | 44,547 | +643.0 | +4,148 | 3天 | 93.5 |
-| 11 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | 58,627 | 7,126 | +336.0 | +3,219 | 4天 | 93.0 |
-| 12 | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | 86,858 | 13,275 | +293.0 | +2,037 | <1天 | 92.8 |
-| 13 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 76,278 | 5,959 | +327.0 | +2,360 | <1天 | 92.7 |
-| 14 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 95,892 | 6,557 | +278.0 | +2,068 | <1天 | 91.9 |
-| 15 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 82,194 | 15,087 | +223.0 | +1,761 | <1天 | 91.7 |
-| 16 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 201,258 | 10,565 | +341.0 | +2,318 | <1天 | 91.7 |
-| 17 | [herdrdev/herdr](https://github.com/herdrdev/herdr) | 50,583 | 4,085 | +293.0 | +2,295 | 4天 | 91.4 |
-| 18 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 113,373 | 18,820 | +207.0 | +1,967 | <1天 | 91.3 |
-| 19 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 111,323 | 9,981 | +219.0 | +2,149 | 4天 | 91.0 |
-| 20 | [ai-job-search-dev/ai-job-search](https://github.com/ai-job-search-dev/ai-job-search) | 71,432 | 23,102 | +185.0 | +1,587 | <1天 | 90.8 |
+| 1 | [stablyai/orca](https://github.com/stablyai/orca) | 124,329 | 7,868 | +949.0 | +6,621 | <1天 | 97.0 |
+| 2 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 71,507 | 57,267 | +440.0 | +3,861 | <1天 | 95.5 |
+| 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 72,730 | 2,008 | +1,452.0 | +8,861 | <1天 | 95.3 |
+| 4 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 280,461 | 34,588 | +719.0 | +5,632 | <1天 | 95.2 |
+| 5 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 147,224 | 14,109 | +540.0 | +3,751 | <1天 | 95.0 |
+| 6 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | 83,879 | 7,747 | +509.0 | +3,845 | <1天 | 94.9 |
+| 7 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 114,963 | 7,710 | +750.0 | +3,790 | 4天 | 94.3 |
+| 8 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 116,812 | 10,136 | +282.0 | +2,870 | <1天 | 93.3 |
+| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 190,309 | 10,625 | +584.0 | +4,531 | 14天 | 93.3 |
+| 10 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 302,400 | 44,606 | +457.0 | +3,920 | 4天 | 92.8 |
+| 11 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | 58,922 | 7,151 | +295.0 | +3,042 | 5天 | 92.6 |
+| 12 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 76,584 | 5,980 | +306.0 | +2,329 | <1天 | 92.4 |
+| 13 | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 21,763 | 1,006 | +1,081.0 | +8,882 | <1天 | 92.2 |
+| 14 | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | 87,135 | 13,339 | +277.0 | +1,987 | <1天 | 92.2 |
+| 15 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 96,197 | 6,575 | +305.0 | +2,025 | <1天 | 92.1 |
+| 16 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | 113,652 | 18,861 | +279.0 | +1,942 | <1天 | 91.7 |
+| 17 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 201,542 | 10,571 | +284.0 | +2,333 | <1天 | 91.1 |
+| 18 | [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | 82,381 | 15,113 | +187.0 | +1,693 | <1天 | 90.8 |
+| 19 | [herdrdev/herdr](https://github.com/herdrdev/herdr) | 50,830 | 4,105 | +247.0 | +2,246 | 5天 | 90.7 |
+| 20 | [ai-job-search-dev/ai-job-search](https://github.com/ai-job-search-dev/ai-job-search) | 71,585 | 23,118 | +153.0 | +1,514 | <1天 | 90.2 |
 
 ## 新兴项目
 
@@ -72,26 +72,26 @@
 
 | # | 项目 | Stars | Stars/天 | 7日增量* | 创建天数 | 最近推送 | Emerging |
 |---:|---|---:|---:|---:|---:|---:|---:|
-| 1 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 71,278 | 1475.1 | +9,041 | 48 | <1天 | 99.0 |
-| 2 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 279,742 | 3091.0 | +6,024 | 90 | <1天 | 96.0 |
-| 3 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 29,541 | 280.8 | +1,383 | 105 | <1天 | 94.4 |
-| 4 | [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer) | 5,907 | 198.1 | +1,070 | 30 | <1天 | 94.3 |
-| 5 | [N1nEmAn/sapper-v2](https://github.com/N1nEmAn/sapper-v2) | 2,018 | 163.2 | +701 | 12 | <1天 | 93.3 |
-| 6 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 189,725 | 1240.3 | +4,557 | 153 | 14天 | 92.8 |
-| 7 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 50,024 | 281.2 | +524 | 178 | <1天 | 89.0 |
-| 8 | [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | 5,270 | 75.9 | +667 | 69 | <1天 | 88.3 |
-| 9 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 12,244 | 118.2 | +459 | 104 | <1天 | 87.9 |
-| 10 | [jiwoochris/artex-global](https://github.com/jiwoochris/artex-global) | 3,160 | 80.2 | +403 | 39 | 2天 | 87.0 |
-| 11 | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 11,988 | 94.8 | +288 | 126 | <1天 | 84.9 |
-| 12 | [tigerless-labs/autoharness](https://github.com/tigerless-labs/autoharness) | 11,031 | 71.1 | +288 | 155 | <1天 | 83.7 |
-| 13 | [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin) | 9,510 | 57.9 | +124 | 164 | <1天 | 77.8 |
-| 14 | [kirodotdev/KiroCrew](https://github.com/kirodotdev/KiroCrew) | 4,919 | 41.6 | +121 | 118 | <1天 | 77.5 |
-| 15 | [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven) | 6,181 | 35.4 | +139 | 175 | <1天 | 76.2 |
-| 16 | [HaD0Yun/CozyClay](https://github.com/HaD0Yun/CozyClay) | 1,748 | 16.5 | +209 | 106 | <1天 | 74.6 |
-| 17 | [soumatheusgomes/vibe-coding-toolkit](https://github.com/soumatheusgomes/vibe-coding-toolkit) | 2,387 | 26.8 | +101 | 89 | 3天 | 73.4 |
-| 18 | [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | 11,760 | 75.5 | +58 | 156 | <1天 | 73.1 |
-| 19 | [jundizhou/easy-stock](https://github.com/jundizhou/easy-stock) | 1,842 | 19.1 | +91 | 96 | <1天 | 72.3 |
-| 20 | [helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations) | 13,183 | 78.4 | +89 | 168 | 16天 | 72.0 |
+| 1 | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | 21,763 | 1166.3 | +8,882 | 19 | <1天 | 99.5 |
+| 2 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 72,730 | 1474.6 | +8,861 | 49 | <1天 | 99.0 |
+| 3 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 280,461 | 3065.1 | +5,632 | 92 | <1天 | 95.7 |
+| 4 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | 29,680 | 279.4 | +1,377 | 106 | <1天 | 94.3 |
+| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 190,309 | 1236.1 | +4,531 | 154 | 14天 | 92.3 |
+| 6 | [N1nEmAn/sapper-v2](https://github.com/N1nEmAn/sapper-v2) | 2,042 | 152.8 | +566 | 13 | 1天 | 91.8 |
+| 7 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 50,502 | 282.3 | +938 | 179 | <1天 | 91.2 |
+| 8 | [nightly-labs/openbot](https://github.com/nightly-labs/openbot) | 7,489 | 81.3 | +1,471 | 92 | <1天 | 90.0 |
+| 9 | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | 12,305 | 117.6 | +457 | 105 | <1天 | 88.0 |
+| 10 | [jiwoochris/artex-global](https://github.com/jiwoochris/artex-global) | 3,205 | 79.4 | +403 | 40 | 3天 | 86.7 |
+| 11 | [TencentCloud/Octop](https://github.com/TencentCloud/Octop) | 12,028 | 94.4 | +292 | 127 | <1天 | 85.0 |
+| 12 | [tigerless-labs/autoharness](https://github.com/tigerless-labs/autoharness) | 11,093 | 71.1 | +343 | 156 | <1天 | 84.0 |
+| 13 | [reacher-z/Awesome-CUA](https://github.com/reacher-z/Awesome-CUA) | 834 | 30.0 | +315 | 28 | <1天 | 80.5 |
+| 14 | [0sec-labs/0](https://github.com/0sec-labs/0) | 1,345 | 15.7 | +744 | 86 | <1天 | 78.3 |
+| 15 | [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) | 11,370 | 73.6 | +107 | 154 | <1天 | 77.2 |
+| 16 | [HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin) | 9,513 | 57.5 | +108 | 165 | <1天 | 76.8 |
+| 17 | [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven) | 6,191 | 35.2 | +123 | 176 | <1天 | 75.6 |
+| 18 | [HaD0Yun/CozyClay](https://github.com/HaD0Yun/CozyClay) | 1,766 | 16.5 | +211 | 107 | <1天 | 75.1 |
+| 19 | [soumatheusgomes/vibe-coding-toolkit](https://github.com/soumatheusgomes/vibe-coding-toolkit) | 2,409 | 26.8 | +112 | 90 | 4天 | 74.5 |
+| 20 | [jundizhou/easy-stock](https://github.com/jundizhou/easy-stock) | 1,857 | 19.1 | +93 | 97 | <1天 | 72.9 |
 
 <!-- AI_AGENT_PROJECT_INTRO_START -->
 ## 重点项目内容介绍
@@ -102,97 +102,97 @@
 
 - **方向**：编程、代码审查与开发者 Agent
 - **项目简介**：Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.
-- **当前规模**：123,380 Stars · 7,801 Forks
+- **当前规模**：124,329 Stars · 7,868 Forks
 - **技术信息**：TypeScript · MIT · Topics: agent-ide / ai-agents / automation / bot / claude-code
-- **本期关注理由**：热度榜第 1 名（Hot 97.2）；增长榜第 2 名（近期约 +1,089.0 Stars/天）；最近 1 天内仍有代码推送。
+- **本期关注理由**：热度榜第 1 名（Hot 97.0）；增长榜第 3 名（近期约 +949.0 Stars/天）；最近 1 天内仍有代码推送。
 
-### 2. [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)
+### 2. [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go)
 
-- **方向**：编程、代码审查与开发者 Agent
-- **项目简介**：在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among t
-- **当前规模**：71,278 Stars · 1,939 Forks
-- **技术信息**：JavaScript · MIT · Topics: ai-agents / deepseek / deepseek-harness / developer-tools / dsh
-- **本期关注理由**：热度榜第 6 名（Hot 95.1）；增长榜第 1 名（近期约 +1,319.0 Stars/天）；新兴榜第 1 名（生命周期约 1,475.1 Stars/天）；最近 1 天内仍有代码推送。
+- **方向**：通用 AI Agent 与 Agent 工具
+- **项目简介**：dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。
+- **当前规模**：21,763 Stars · 1,006 Forks
+- **技术信息**：Dart · AGPL-3.0 · Topics: ai-agent / android / android-app / coding-agent / deepseek
+- **本期关注理由**：热度榜第 13 名（Hot 92.2）；增长榜第 1 名（近期约 +1,081.0 Stars/天）；新兴榜第 1 名（生命周期约 1,166.3 Stars/天）；最近 1 天内仍有代码推送。
 
 ### 3. [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)
 
 - **方向**：研究、数据分析与垂直场景
 - **项目简介**：LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.
-- **当前规模**：71,067 Stars · 57,124 Forks
+- **当前规模**：71,507 Stars · 57,267 Forks
 - **技术信息**：Python · MIT · Topics: a-stock / ai-agent / aigc / llm / quant
-- **本期关注理由**：热度榜第 2 名（Hot 95.8）；增长榜第 3 名（近期约 +963.0 Stars/天）；最近 1 天内仍有代码推送。
+- **本期关注理由**：热度榜第 2 名（Hot 95.5）；增长榜第 4 名（近期约 +440.0 Stars/天）；最近 1 天内仍有代码推送。
 
-### 4. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
+### 4. [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)
+
+- **方向**：编程、代码审查与开发者 Agent
+- **项目简介**：在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among t
+- **当前规模**：72,730 Stars · 2,008 Forks
+- **技术信息**：JavaScript · MIT · Topics: ai-agents / deepseek / deepseek-harness / developer-tools / dsh
+- **本期关注理由**：热度榜第 3 名（Hot 95.3）；增长榜第 2 名（近期约 +1,452.0 Stars/天）；新兴榜第 2 名（生命周期约 1,474.6 Stars/天）；最近 1 天内仍有代码推送。
+
+### 5. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
 
 - **方向**：通用 AI Agent 与 Agent 工具
 - **项目简介**：DeepSeek Harness: Everything is a Plugin.
-- **当前规模**：279,742 Stars · 34,450 Forks
+- **当前规模**：280,461 Stars · 34,588 Forks
 - **技术信息**：TypeScript · MIT · Topics: ai-agents / cordis / dsh / dsh-plugin
-- **本期关注理由**：热度榜第 3 名（Hot 95.6）；增长榜第 8 名（近期约 +799.0 Stars/天）；新兴榜第 2 名（生命周期约 3,091.0 Stars/天）；最近 1 天内仍有代码推送。
+- **本期关注理由**：热度榜第 4 名（Hot 95.2）；增长榜第 8 名（近期约 +719.0 Stars/天）；新兴榜第 3 名（生命周期约 3,065.1 Stars/天）；最近 1 天内仍有代码推送。
 
-### 5. [hypit-ai/hypit](https://github.com/hypit-ai/hypit)
+### 6. [hypit-ai/hypit](https://github.com/hypit-ai/hypit)
 
 - **方向**：设计、内容与多媒体 Agent
 - **项目简介**：Clone any viral video with AI agents. Not just a script, the whole workflow: swap the face, the words, the B-roll, ship 100 variants in one command, and get your 100M views.
-- **当前规模**：29,541 Stars · 3,446 Forks
+- **当前规模**：29,680 Stars · 3,463 Forks
 - **技术信息**：TypeScript · 许可证未标注 · Topics: agentic-ai / ai / ai-agents / ai-video / compiler
-- **本期关注理由**：增长榜第 16 名（近期约 +180.0 Stars/天）；新兴榜第 3 名（生命周期约 280.8 Stars/天）；最近 1 天内仍有代码推送。
+- **本期关注理由**：增长榜第 18 名（近期约 +139.0 Stars/天）；新兴榜第 4 名（生命周期约 279.4 Stars/天）；最近 1 天内仍有代码推送。
 
-### 6. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
+### 7. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
 
 - **方向**：研究、数据分析与垂直场景
 - **项目简介**：Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
-- **当前规模**：146,684 Stars · 14,069 Forks
+- **当前规模**：147,224 Stars · 14,109 Forks
 - **技术信息**：Python · Apache-2.0 · Topics: ai-agents / antigravity / ast / claude-code / code-analysis
-- **本期关注理由**：热度榜第 4 名（Hot 95.4）；增长榜第 6 名（近期约 +580.0 Stars/天）；最近 1 天内仍有代码推送。
+- **本期关注理由**：热度榜第 5 名（Hot 95.0）；增长榜第 7 名（近期约 +540.0 Stars/天）；最近 1 天内仍有代码推送。
 
-### 7. [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
+### 8. [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
 
 - **方向**：设计、内容与多媒体 Agent
 - **项目简介**：Write HTML. Render video. Built for agents.
-- **当前规模**：83,370 Stars · 7,700 Forks
+- **当前规模**：83,879 Stars · 7,747 Forks
 - **技术信息**：TypeScript · Apache-2.0 · Topics: ai / ai-agents / animation / claude-code / ffmpeg
-- **本期关注理由**：热度榜第 5 名（Hot 95.2）；增长榜第 4 名（近期约 +550.0 Stars/天）；最近 1 天内仍有代码推送。
+- **本期关注理由**：热度榜第 6 名（Hot 94.9）；增长榜第 5 名（近期约 +509.0 Stars/天）；最近 1 天内仍有代码推送。
 
-### 8. [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer)
-
-- **方向**：编程、代码审查与开发者 Agent
-- **项目简介**：Experience-Driven Black-Box Cost Control for Coding Agents
-- **当前规模**：5,907 Stars · 375 Forks
-- **技术信息**：Python · Apache-2.0 · Topics: agentic-ai / agentic-coding / ai-coding / ai-coding-assistant / anthropic
-- **本期关注理由**：新兴榜第 4 名（生命周期约 198.1 Stars/天）；最近 1 天内仍有代码推送。
-
-### 9. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
-
-- **方向**：设计、内容与多媒体 Agent
-- **项目简介**：Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages
-- **当前规模**：114,213 Stars · 7,686 Forks
-- **技术信息**：JavaScript · MIT · Topics: agent-skills / ai-agents / anti-slop / claude-code / codex
-- **本期关注理由**：热度榜第 7 名（Hot 94.4）；增长榜第 5 名（近期约 +715.0 Stars/天）；最近约 3 天内仍有代码推送。
-
-### 10. [N1nEmAn/sapper-v2](https://github.com/N1nEmAn/sapper-v2)
-
-- **方向**：设计、内容与多媒体 Agent
-- **项目简介**：The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation (Create/Language/History).
-- **当前规模**：2,018 Stars · 1,029 Forks
-- **技术信息**：Python · MIT · Topics: agentic-workflows / ai-agents / ai-security / autonomous-agents / claude-code
-- **本期关注理由**：新兴榜第 5 名（生命周期约 163.2 Stars/天）；最近 1 天内仍有代码推送。
-
-### 11. [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
+### 9. [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
 
 - **方向**：编程、代码审查与开发者 Agent
 - **项目简介**：Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
-- **当前规模**：189,725 Stars · 10,574 Forks
+- **当前规模**：190,309 Stars · 10,625 Forks
 - **技术信息**：JavaScript · MIT · Topics: agent-skills / ai-agents / claude / claude-code / claude-code-plugin
-- **本期关注理由**：热度榜第 9 名（Hot 93.7）；增长榜第 12 名（近期约 +651.0 Stars/天）；新兴榜第 6 名（生命周期约 1,240.3 Stars/天）；最近约 14 天内有代码推送。
+- **本期关注理由**：热度榜第 9 名（Hot 93.3）；增长榜第 11 名（近期约 +584.0 Stars/天）；新兴榜第 5 名（生命周期约 1,236.1 Stars/天）；最近约 14 天内有代码推送。
 
-### 12. [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)
+### 10. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
 
-- **方向**：教程、案例与学习资源
-- **项目简介**：DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.
-- **当前规模**：58,627 Stars · 7,126 Forks
-- **技术信息**：Python · Apache-2.0 · Topics: ai-agents / ai-tutor / clawbot / cli-tool / deepresearch
-- **本期关注理由**：热度榜第 11 名（Hot 93.0）；增长榜第 7 名（近期约 +336.0 Stars/天）；最近约 4 天内仍有代码推送。
+- **方向**：设计、内容与多媒体 Agent
+- **项目简介**：Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages
+- **当前规模**：114,963 Stars · 7,710 Forks
+- **技术信息**：JavaScript · MIT · Topics: agent-skills / ai-agents / anti-slop / claude-code / codex
+- **本期关注理由**：热度榜第 7 名（Hot 94.3）；增长榜第 6 名（近期约 +750.0 Stars/天）；最近约 4 天内仍有代码推送。
+
+### 11. [N1nEmAn/sapper-v2](https://github.com/N1nEmAn/sapper-v2)
+
+- **方向**：设计、内容与多媒体 Agent
+- **项目简介**：The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation (Create/Language/History).
+- **当前规模**：2,042 Stars · 1,044 Forks
+- **技术信息**：Python · MIT · Topics: agentic-workflows / ai-agents / ai-security / autonomous-agents / claude-code
+- **本期关注理由**：新兴榜第 6 名（生命周期约 152.8 Stars/天）；最近约 1 天内仍有代码推送。
+
+### 12. [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
+
+- **方向**：编程、代码审查与开发者 Agent
+- **项目简介**：Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), Ope
+- **当前规模**：50,502 Stars · 3,748 Forks
+- **技术信息**：Go · Apache-2.0 · Topics: agent / agent-skills / code-review / code-review-assistant / harness
+- **本期关注理由**：新兴榜第 7 名（生命周期约 282.3 Stars/天）；最近 1 天内仍有代码推送。
 
 <!-- AI_AGENT_PROJECT_INTRO_END -->
 
@@ -203,104 +203,104 @@
 
 | 项目 | 是否值得使用 | 社区分 | 置信度 | 核心依据 |
 |---|---|---:|---|---|
-| [stablyai/orca](https://github.com/stablyai/orca) | **值得试用** | 80.0/100 | 中等 | 最近推送约 0 天前；社区健康 75%；活跃 Issue 样本关闭 0/3（0%），2 条开放 Issue 带风险信号；贡献者至少 100 人。 |
-| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | **谨慎试用** | 66.4/100 | 中等 | 最近推送约 1 天前；社区健康 42%；活跃 Issue 样本关闭 4/20（20%），4 条开放 Issue 带风险信号；贡献者样本 37 人。 |
-| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | **值得试用** | 78.0/100 | 中等 | 最近推送约 0 天前；社区健康 71%；活跃 Issue 样本关闭 1/5（20%），1 条开放 Issue 带风险信号；贡献者至少 100 人。 |
-| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | **值得试用** | 78.9/100 | 中等 | 最近推送约 1 天前；社区健康 62%；Issue 样本不足；贡献者样本 69 人。 |
-| [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | **暂不建议直接用于关键生产** | 57.9/100 | 中等 | 最近推送约 1 天前；社区健康 50%；活跃 Issue 样本关闭 1/14（7%），9 条开放 Issue 带风险信号；贡献者样本 24 人。 |
-| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | **值得使用** | 86.8/100 | 中等 | 最近推送约 0 天前；社区健康 87%；活跃 Issue 样本关闭 6/16（38%），5 条开放 Issue 带风险信号；贡献者至少 100 人。 |
-| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | **值得试用** | 81.2/100 | 中等 | 最近推送约 0 天前；社区健康 87%；活跃 Issue 样本关闭 1/5（20%），3 条开放 Issue 带风险信号；贡献者至少 100 人。 |
-| [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer) | **值得试用** | 70.7/100 | 中等 | 最近推送约 0 天前；社区健康 62%；活跃 Issue 样本关闭 5/9（56%）；贡献者样本 37 人。 |
-| [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | **值得试用** | 76.3/100 | 中等 | 最近推送约 3 天前；社区健康 42%；活跃 Issue 样本关闭 11/15（73%），1 条开放 Issue 带风险信号；贡献者样本 27 人。 |
-| [N1nEmAn/sapper-v2](https://github.com/N1nEmAn/sapper-v2) | **谨慎试用** | 63.6/100 | 中等 | 最近推送约 0 天前；社区健康 42%；活跃 Issue 样本关闭 2/5（40%）；贡献者样本 2 人。 |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | **谨慎试用** | 63.7/100 | 中等 | 最近推送约 14 天前；社区健康 57%；活跃 Issue 样本关闭 0/14（0%）；贡献者至少 100 人。 |
-| [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | **值得试用** | 71.0/100 | 中等 | 最近推送约 4 天前；社区健康 75%；活跃 Issue 样本关闭 0/8（0%），7 条开放 Issue 带风险信号；贡献者至少 100 人。 |
+| [stablyai/orca](https://github.com/stablyai/orca) | **值得使用** | 84.5/100 | 中等 | 最近推送约 0 天前；社区健康 75%；活跃 Issue 样本关闭 1/2（50%）；贡献者至少 100 人。 |
+| [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | **谨慎试用** | 66.0/100 | 中等 | 最近推送约 0 天前；社区健康 85%；活跃 Issue 样本关闭 0/20（0%），12 条开放 Issue 带风险信号；贡献者样本 2 人。 |
+| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | **值得使用** | 84.5/100 | 中等 | 最近推送约 0 天前；社区健康 71%；活跃 Issue 样本关闭 1/4（25%）；贡献者至少 100 人。 |
+| [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | **谨慎试用** | 64.6/100 | 中等 | 最近推送约 0 天前；社区健康 42%；活跃 Issue 样本关闭 3/19（16%），3 条开放 Issue 带风险信号；贡献者样本 37 人。 |
+| [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | **值得试用** | 78.9/100 | 中等 | 最近推送约 0 天前；社区健康 62%；Issue 样本不足；贡献者样本 70 人。 |
+| [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | **谨慎试用** | 58.2/100 | 中等 | 最近推送约 0 天前；社区健康 50%；活跃 Issue 样本关闭 0/10（0%），6 条开放 Issue 带风险信号；贡献者样本 24 人。 |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | **值得使用** | 83.8/100 | 中等 | 最近推送约 0 天前；社区健康 87%；活跃 Issue 样本关闭 3/15（20%），7 条开放 Issue 带风险信号；贡献者至少 100 人。 |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | **值得使用** | 82.7/100 | 中等 | 最近推送约 0 天前；社区健康 87%；活跃 Issue 样本关闭 0/3（0%）；贡献者至少 100 人。 |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | **谨慎试用** | 59.1/100 | 中等 | 最近推送约 14 天前；社区健康 57%；活跃 Issue 样本关闭 0/14（0%）；贡献者至少 100 人。 |
+| [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | **值得试用** | 75.1/100 | 中等 | 最近推送约 4 天前；社区健康 42%；活跃 Issue 样本关闭 11/16（69%），1 条开放 Issue 带风险信号；贡献者样本 27 人。 |
+| [N1nEmAn/sapper-v2](https://github.com/N1nEmAn/sapper-v2) | **谨慎试用** | 61.6/100 | 中等 | 最近推送约 1 天前；社区健康 42%；活跃 Issue 样本关闭 2/5（40%）；贡献者样本 2 人。 |
+| [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | **值得使用** | 86.1/100 | 中等 | 最近推送约 0 天前；社区健康 87%；活跃 Issue 样本关闭 1/3（33%）；贡献者至少 100 人。 |
 
 ### 逐项判断
 
 #### 1. [stablyai/orca](https://github.com/stablyai/orca)
 
-- **是否值得使用**：**值得试用**（社区分 80.0/100，中等置信度）
-- **社区评价**：最近推送约 0 天前；社区健康 75%；活跃 Issue 样本关闭 0/3（0%），2 条开放 Issue 带风险信号；贡献者至少 100 人。
+- **是否值得使用**：**值得使用**（社区分 84.5/100，中等置信度）
+- **社区评价**：最近推送约 0 天前；社区健康 75%；活跃 Issue 样本关闭 1/2（50%）；贡献者至少 100 人。
 - **主要风险**：未发现明显的维护与社区结构风险信号，但仍需自行验证安全性与兼容性。
-- **使用建议**：适合个人、PoC 或小团队验证；关键业务接入前建议完成回归测试和安全评估。
+- **使用建议**：可列入优先试用清单；生产采用前仍需核对安全边界、数据处理和版本兼容性。
 
-#### 2. [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)
+#### 2. [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go)
 
-- **是否值得使用**：**谨慎试用**（社区分 66.4/100，中等置信度）
-- **社区评价**：最近推送约 1 天前；社区健康 42%；活跃 Issue 样本关闭 4/20（20%），4 条开放 Issue 带风险信号；贡献者样本 37 人。
-- **主要风险**：社区健康档案仅 42%；近期活跃 Issue 样本关闭率偏低。
+- **是否值得使用**：**谨慎试用**（社区分 66.0/100，中等置信度）
+- **社区评价**：最近推送约 0 天前；社区健康 85%；活跃 Issue 样本关闭 0/20（0%），12 条开放 Issue 带风险信号；贡献者样本 2 人。
+- **主要风险**：近期活跃 Issue 样本关闭率偏低；Bug/安全/回归类开放 Issue 信号较多；贡献者样本较集中，存在维护者依赖；提交高度集中于单一贡献者。
 - **使用建议**：建议在隔离环境、小规模验证，观察维护响应和版本稳定性后再扩大使用。
 
 #### 3. [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)
 
-- **是否值得使用**：**值得试用**（社区分 78.0/100，中等置信度）
-- **社区评价**：最近推送约 0 天前；社区健康 71%；活跃 Issue 样本关闭 1/5（20%），1 条开放 Issue 带风险信号；贡献者至少 100 人。
+- **是否值得使用**：**值得使用**（社区分 84.5/100，中等置信度）
+- **社区评价**：最近推送约 0 天前；社区健康 71%；活跃 Issue 样本关闭 1/4（25%）；贡献者至少 100 人。
 - **主要风险**：未发现明显的维护与社区结构风险信号，但仍需自行验证安全性与兼容性。
-- **使用建议**：适合个人、PoC 或小团队验证；关键业务接入前建议完成回归测试和安全评估。
+- **使用建议**：可列入优先试用清单；生产采用前仍需核对安全边界、数据处理和版本兼容性。
 
-#### 4. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
+#### 4. [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model)
+
+- **是否值得使用**：**谨慎试用**（社区分 64.6/100，中等置信度）
+- **社区评价**：最近推送约 0 天前；社区健康 42%；活跃 Issue 样本关闭 3/19（16%），3 条开放 Issue 带风险信号；贡献者样本 37 人。
+- **主要风险**：社区健康档案仅 42%；近期活跃 Issue 样本关闭率偏低。
+- **使用建议**：建议在隔离环境、小规模验证，观察维护响应和版本稳定性后再扩大使用。
+
+#### 5. [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
 
 - **是否值得使用**：**值得试用**（社区分 78.9/100，中等置信度）
-- **社区评价**：最近推送约 1 天前；社区健康 62%；Issue 样本不足；贡献者样本 69 人。
+- **社区评价**：最近推送约 0 天前；社区健康 62%；Issue 样本不足；贡献者样本 70 人。
 - **主要风险**：未发现明显的维护与社区结构风险信号，但仍需自行验证安全性与兼容性。
 - **使用建议**：适合个人、PoC 或小团队验证；关键业务接入前建议完成回归测试和安全评估。
 
-#### 5. [hypit-ai/hypit](https://github.com/hypit-ai/hypit)
+#### 6. [hypit-ai/hypit](https://github.com/hypit-ai/hypit)
 
-- **是否值得使用**：**暂不建议直接用于关键生产**（社区分 57.9/100，中等置信度）
-- **社区评价**：最近推送约 1 天前；社区健康 50%；活跃 Issue 样本关闭 1/14（7%），9 条开放 Issue 带风险信号；贡献者样本 24 人。
+- **是否值得使用**：**谨慎试用**（社区分 58.2/100，中等置信度）
+- **社区评价**：最近推送约 0 天前；社区健康 50%；活跃 Issue 样本关闭 0/10（0%），6 条开放 Issue 带风险信号；贡献者样本 24 人。
 - **主要风险**：未标注明确开源许可证；近期活跃 Issue 样本关闭率偏低；Bug/安全/回归类开放 Issue 信号较多。
-- **使用建议**：当前更适合研究和技术评估，不建议直接进入关键生产系统。
+- **使用建议**：建议在隔离环境、小规模验证，观察维护响应和版本稳定性后再扩大使用。
 
-#### 6. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
+#### 7. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
 
-- **是否值得使用**：**值得使用**（社区分 86.8/100，中等置信度）
-- **社区评价**：最近推送约 0 天前；社区健康 87%；活跃 Issue 样本关闭 6/16（38%），5 条开放 Issue 带风险信号；贡献者至少 100 人。
+- **是否值得使用**：**值得使用**（社区分 83.8/100，中等置信度）
+- **社区评价**：最近推送约 0 天前；社区健康 87%；活跃 Issue 样本关闭 3/15（20%），7 条开放 Issue 带风险信号；贡献者至少 100 人。
 - **主要风险**：近期活跃 Issue 样本关闭率偏低；Bug/安全/回归类开放 Issue 信号较多。
 - **使用建议**：可列入优先试用清单；生产采用前仍需核对安全边界、数据处理和版本兼容性。
 
-#### 7. [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
+#### 8. [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
 
-- **是否值得使用**：**值得试用**（社区分 81.2/100，中等置信度）
-- **社区评价**：最近推送约 0 天前；社区健康 87%；活跃 Issue 样本关闭 1/5（20%），3 条开放 Issue 带风险信号；贡献者至少 100 人。
+- **是否值得使用**：**值得使用**（社区分 82.7/100，中等置信度）
+- **社区评价**：最近推送约 0 天前；社区健康 87%；活跃 Issue 样本关闭 0/3（0%）；贡献者至少 100 人。
 - **主要风险**：未发现明显的维护与社区结构风险信号，但仍需自行验证安全性与兼容性。
-- **使用建议**：适合个人、PoC 或小团队验证；关键业务接入前建议完成回归测试和安全评估。
+- **使用建议**：可列入优先试用清单；生产采用前仍需核对安全边界、数据处理和版本兼容性。
 
-#### 8. [microsoft/TokenEconomizer](https://github.com/microsoft/TokenEconomizer)
+#### 9. [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
 
-- **是否值得使用**：**值得试用**（社区分 70.7/100，中等置信度）
-- **社区评价**：最近推送约 0 天前；社区健康 62%；活跃 Issue 样本关闭 5/9（56%）；贡献者样本 37 人。
-- **主要风险**：未发现明显的维护与社区结构风险信号，但仍需自行验证安全性与兼容性。
-- **使用建议**：适合个人、PoC 或小团队验证；关键业务接入前建议完成回归测试和安全评估。
-
-#### 9. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
-
-- **是否值得使用**：**值得试用**（社区分 76.3/100，中等置信度）
-- **社区评价**：最近推送约 3 天前；社区健康 42%；活跃 Issue 样本关闭 11/15（73%），1 条开放 Issue 带风险信号；贡献者样本 27 人。
-- **主要风险**：社区健康档案仅 42%；提交高度集中于单一贡献者。
-- **使用建议**：适合个人、PoC 或小团队验证；关键业务接入前建议完成回归测试和安全评估。
-
-#### 10. [N1nEmAn/sapper-v2](https://github.com/N1nEmAn/sapper-v2)
-
-- **是否值得使用**：**谨慎试用**（社区分 63.6/100，中等置信度）
-- **社区评价**：最近推送约 0 天前；社区健康 42%；活跃 Issue 样本关闭 2/5（40%）；贡献者样本 2 人。
-- **主要风险**：社区健康档案仅 42%；贡献者样本较集中，存在维护者依赖。
-- **使用建议**：建议在隔离环境、小规模验证，观察维护响应和版本稳定性后再扩大使用。
-
-#### 11. [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
-
-- **是否值得使用**：**谨慎试用**（社区分 63.7/100，中等置信度）
+- **是否值得使用**：**谨慎试用**（社区分 59.1/100，中等置信度）
 - **社区评价**：最近推送约 14 天前；社区健康 57%；活跃 Issue 样本关闭 0/14（0%）；贡献者至少 100 人。
 - **主要风险**：近期活跃 Issue 样本关闭率偏低。
 - **使用建议**：建议在隔离环境、小规模验证，观察维护响应和版本稳定性后再扩大使用。
 
-#### 12. [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)
+#### 10. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)
 
-- **是否值得使用**：**值得试用**（社区分 71.0/100，中等置信度）
-- **社区评价**：最近推送约 4 天前；社区健康 75%；活跃 Issue 样本关闭 0/8（0%），7 条开放 Issue 带风险信号；贡献者至少 100 人。
-- **主要风险**：近期活跃 Issue 样本关闭率偏低；Bug/安全/回归类开放 Issue 信号较多。
-- **使用建议**：适合作为学习、选型和原型参考，但示例代码不应未经审查直接进入生产。
+- **是否值得使用**：**值得试用**（社区分 75.1/100，中等置信度）
+- **社区评价**：最近推送约 4 天前；社区健康 42%；活跃 Issue 样本关闭 11/16（69%），1 条开放 Issue 带风险信号；贡献者样本 27 人。
+- **主要风险**：社区健康档案仅 42%；提交高度集中于单一贡献者。
+- **使用建议**：适合个人、PoC 或小团队验证；关键业务接入前建议完成回归测试和安全评估。
+
+#### 11. [N1nEmAn/sapper-v2](https://github.com/N1nEmAn/sapper-v2)
+
+- **是否值得使用**：**谨慎试用**（社区分 61.6/100，中等置信度）
+- **社区评价**：最近推送约 1 天前；社区健康 42%；活跃 Issue 样本关闭 2/5（40%）；贡献者样本 2 人。
+- **主要风险**：社区健康档案仅 42%；贡献者样本较集中，存在维护者依赖。
+- **使用建议**：建议在隔离环境、小规模验证，观察维护响应和版本稳定性后再扩大使用。
+
+#### 12. [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
+
+- **是否值得使用**：**值得使用**（社区分 86.1/100，中等置信度）
+- **社区评价**：最近推送约 0 天前；社区健康 87%；活跃 Issue 样本关闭 1/3（33%）；贡献者至少 100 人。
+- **主要风险**：未发现明显的维护与社区结构风险信号，但仍需自行验证安全性与兼容性。
+- **使用建议**：可列入优先试用清单；生产采用前仍需核对安全边界、数据处理和版本兼容性。
 
 <!-- AI_AGENT_COMMUNITY_REVIEW_END -->
 
